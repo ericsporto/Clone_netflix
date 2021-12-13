@@ -44,7 +44,7 @@ header nav a:hover {
 
 /*Filme principal*/
 
-.filme-principal {
+.noticia-principal {
     font-size: 16px;
     background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%), url("../img/capa01.jpg");
     height: 400px;
@@ -58,13 +58,13 @@ header nav a:hover {
 }
 
 
-.filme-principal .descricao {
+.noticia-principal .descricao {
     margin-top: 10px;
     margin-bottom: 40px;
     text-align: justify;
 }
 
-.filme-principal.titulo {
+.noticia-principal.titulo {
     margin-top: 15%;
     font-size: 1em;
     font-family: 'Trebuchet MS', Arial, sans-serif;
@@ -95,7 +95,7 @@ header nav a:hover {
     margin-left: 20px;
 }
 
-.filme-principal .container {
+.noticia-principal .container {
     width: 70%;
 }
 
