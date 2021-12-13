@@ -1,0 +1,145 @@
+:root {
+    --verde: #06AA48;
+    --cinza: #F9F9F9;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Elementos Base*/
+
+body {
+    background: var(--verde);
+    font-family: 'Arial', Times, serif;
+    color: var(--cinza);
+}
+
+header .container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--verde);
+}
+
+header .logo {
+    color: var(--cinza);
+    margin-left: 5px;
+    font-family: "Arial Black", 'Times New Roman', Times, serif;
+    font-size: 40px;
+}
+
+header nav a {
+    text-decoration: none;
+    color: var(--cinza);
+    margin-right: 30px;
+}
+header nav a:hover {
+    color: black;
+    
+}
+
+/*Filme principal*/
+
+.filme-principal {
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%), url("/img/capa01.jpg");
+    height: 400px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    
+
+}
+
+
+.filme-principal .descricao {
+    margin-top: 10px;
+    margin-bottom: 40px;
+    text-align: justify;
+}
+
+.filme-principal.titulo {
+    margin-top: 15%;
+    font-size: 1em;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+}
+
+.botao {
+    background-color: var(--verde);
+    border: none;
+    color: white;
+    padding: 15px 30px;
+    margin-right: 15px;
+    font-size: 12px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: .3s ease all;
+}
+
+.botao:hover {
+    background-color: white;
+    color: black;
+}
+
+.botao i {
+    margin-right: 8px;
+}
+
+.container {
+    margin-left: 20px;
+}
+
+.filme-principal .container {
+    width: 70%;
+}
+
+.box-time {
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+.carousel-times {
+    margin-top: 5px;
+}
+
+.serie {
+    font-size: 1.3em;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+
+}
+
+/* Footer elements*/
+
+footer {
+    background-color: rgb(206, 204, 199);
+    height: 15vh;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    
+}
+
+footer lu a {
+    color: black;
+    margin-left: 30px;
+    transition: .3s ease all;
+    
+    
+    
+}
+
+footer lu a:hover {
+    color: white;
+}
+
